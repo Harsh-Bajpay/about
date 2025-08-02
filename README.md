@@ -1,4 +1,4 @@
-# 👋 About Harsh Bajpay
+# 👋 About Aastha Bajpay
 
 Welcome to my GitHub! I'm Harsh, a Computer Science enthusiast passionate about building scalable web apps, exploring cloud technologies, and diving deep into AI frameworks.
 
@@ -14,9 +14,7 @@ Welcome to my GitHub! I'm Harsh, a Computer Science enthusiast passionate about 
 
 ## 🎓 Education & Interests
 
-- Currently exploring MSc Computer Science programs aligned with NEP-2020.
 - Certified in GitHub Foundations.
-- Strong grasp of Google Cloud services and security platforms.
 - Active participant in hackathons and technical meetups.
 
 ## 🛠️ Skills
