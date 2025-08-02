@@ -22,13 +22,10 @@ Welcome to my GitHub! I'm Harsh, a Computer Science enthusiast passionate about 
 ## 🛠️ Skills
 
 - Problem-solving & optimized coding
-- Cloud architecture (GCP)
-- Modular design & AI agent frameworks
 
 ## 📫 Connect
 
 - [LinkedIn](https://www.linkedin.com/in/aastha-bajpay-0477b8357/)
-- Email: harshpandat006@gmail.com
 
 ---
 
