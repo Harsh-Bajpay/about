@@ -1,0 +1,110 @@
+:root {
+    --primary-bg: #f0f4f8;
+    --card-bg: #ffffff;
+    --text-color: #333;
+    --heading-color: #0a192f;
+    --accent-color: #5d5dff;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+
+.about-card {
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px var(--shadow-color);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+    background-color: var(--heading-color);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.initials-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-body p {
+    margin: 0 0 15px 0;
+    line-height: 1.6;
+    font-size: 16px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.card-body p:last-child {
+    margin-bottom: 0;
+}
+
+.card-body strong {
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
+.emoji {
+    font-size: 20px;
+    margin-right: 12px;
+    line-height: 1.6;
+    color: var(--accent-color);
+}
+
+/* Responsive styles */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+    .card-body p {
+        font-size: 15px;
+    }
+}
